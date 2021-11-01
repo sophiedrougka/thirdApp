@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Search</title>
+    <script src="/MoviesWebApp/static/js/jquery.min.js"></script>
+    <script src="/MoviesWebApp/static/js/movies.js"></script>
+    <link rel="stylesheet" href="/MoviesWebApp/static/css/moviesMenu.css">
+
+    <style>
+    
+    	table {
+    	width:60%;
+    	background-color:grey;
+    	text-align:left;
+    	
+    	}
+    	
+        table, th, td {
+            margin: 0 auto;
+            border: 1px solid black;
+            border-collapse: collapse;
+           
+        }
+
+        th, td {
+            padding: 20px;
+        }
+        
+        tr:hover{
+        background-color:red;
+        
+        }
+    </style>
+</head>
+<body>
+<br><br>
+    <div class="center">
+        
+        <div class="search-wrapper">
+	        <div class="bot-gap">
+	            <span class="title">Movies Search</span>
+	        </div>
+	        <div class="bot-gap">
+	            <form>
+	                <input id="searchInput" type="text" class="search rounded" placeholder="Insert movie's title" autofocus/>
+	                <br><br>
+	                <button class="search-btn rounded color-btn" type="button" onclick="fetchMoviesFromJSON()">Search</button>
+	            </form>
+	        </div>
+        </div>
+     
+
+        <h1>List of Movies</h1>
+        <table class="movies-list">
+
+        </table>       
+        <br><br>
+        <a href="/MoviesWebApp/index.jsp">Home</a>
+    </div>
+         
+     
+</body>
+</html> 

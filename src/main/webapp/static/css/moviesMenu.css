@@ -1,0 +1,192 @@
+@charset "UTF-8";
+body {
+	background: rgb(192, 192, 192);
+	margin: 0;
+}
+
+.center {
+	text-align: center;
+}
+
+ .insert-wrapper{
+	width: 400px;
+	height:500px;
+	/*margin: 20px auto;*/
+	margin: auto;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+ 	bottom: 0;
+	border: 1px solid black;
+	border-radius: 18px;
+	background:#A57D84;
+}
+
+.delete-wrapper {
+	
+	width: 600px;
+	height:300px;
+	margin: auto;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+ 	bottom: 0;
+	border: 1px solid black;
+	border-radius: 18px;
+	background:#A57D84;
+}
+
+.search-wrapper{
+	
+	width: 400px;
+	height:300px;
+	margin: auto;
+	border: 1px solid black;
+	border-radius: 18px;
+	background:#A57D84;
+}
+
+.update-wrapper {
+	
+	width: 600px;
+	height:620px;
+	margin: auto;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+ 	bottom: 0;
+	border: 1px solid black;
+	border-radius: 18px;
+	background:#A57D84;
+}
+
+.bot-gap {
+	margin-bottom: 0;
+}
+
+.title {
+	color: #fff;
+	font-size: 28px;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+input[type=text].search {
+	width: 200px;
+	height: 50px;
+	background-image: url('/TeachersWebApp/static/img/search.png');
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 45px 45px;
+	padding-left: 45px;
+}
+
+.rounded {
+	border-radius: 18px;
+	border: 1.5px solid black;
+}
+
+.color-btn {
+	background-color: rgb(255, 128, 64);
+}
+
+/* Remove focus border added by browser */
+input.search:focus {
+	outline: none;
+}
+
+.submit-btn {
+	width: 200px;
+	height: 50px;
+	font-size: 17px;
+}
+
+.submit-btn:hover{
+	background-color:red;
+}
+
+.submit-btn1 {
+	width: 400px;
+	height: 40px;
+	font-size: 17px;
+}
+
+.submit-btn1:hover{
+	background-color:red;
+}
+
+.insert {
+	padding-left: 15px;
+	width: 200px;
+	height: 30px;
+}
+
+.insert1 {
+	padding-left: 15px;
+	width: 400px;
+	height: 30px;
+}
+
+.textarea1 {
+	width:200px;
+	height:150px;
+	align-content:left;
+	resize:none;
+	
+}
+
+.textarea2 {
+	width:400px;
+	height:150px;
+	align-content:left;
+	resize:none;
+	
+}
+
+.table-center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.row {
+display:inline-block;
+width:400px;
+}
+
+.prev-btn {
+	float:left;
+	width:100px;
+	height:40px;
+}
+
+.prev-btn:hover {
+	background-color:green;
+	
+}
+
+.next-btn {
+	float:right;
+	width:100px;
+	height:40px;
+}
+
+.next-btn:hover {
+	background-color:green;
+	
+}
+
+.search-btn {
+	
+	width: 200px;
+	height: 50px;
+	font-size: 15px;
+
+}
+
+.search-btn:hover {
+	
+	background-color:green;
+}
+
